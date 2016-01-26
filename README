@@ -1,0 +1,31 @@
+/*
+(1) student's name:     Alec Chen
+(2) student ID:         301187669
+(3) SFU user name:      cca169
+(4) lecture section:    CMPT 300 D1 (Fall 2015)
+(5) instructor's name:  Brian Booth
+(6) TA's name:          Scott Kristjansonnclude
+*/
+
+
+Assignment #4, A Distributed Flock of Lyrebirds
+
+The program decyptes tweets(max char size 254) by using server-client network
+and provided algorithm. The server reads config file which contains input encrypted file path/name
+and output decrypted file path/name, and then sends the file path/name to connected clients. Clients
+decrypt and tells server whether the task is completed successfully.
+
+Usage:
+
+1. compile the programe: type 'make' in terminal  at the program directory
+2. execute the server first : ./lyrebird.server <config_file> <log_file>, the console should display the
+   server ip address and port for client program to connect
+3. execute the client: ./lyrebird.client <server ip adrress> <port>
+
+4. to remove the executables, log files, objects files: type 'make clean' in terminal at the program directory
+
+
+credit to Beej's Guideto sockets: http://beej.us/guide/bgnet/output/html/singlepage/bgnet.html#htonsman
+
+
+p.s the programe is incompleted, it only starts the server and take client connection. Server does not send task to clients

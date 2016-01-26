@@ -1,0 +1,8 @@
+fcfs
+/home/userid/more_tweets1.txt /home/userid/output1.txt
+/home/userid/more_tweets2.txt /home/userid/output2.txt
+/home/userid/more_tweets3.txt /home/userid/output3.txt
+/home/userid/more_tweets4.txt /home/userid/output4.txt
+/home/userid/more_tweets5.txt /home/userid/output5.txt
+
+

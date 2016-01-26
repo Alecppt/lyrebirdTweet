@@ -1,0 +1,15 @@
+<H1> Overview</H1>
+<h2>motive </h2>
+    <p>to better utilized the hardware, and reduce the number of processes created to handle each encrypted file</p>
+    <p> the program spawns the process for each core and use round robin or fcfs algrithms to dispatch jobs to each process</p>
+
+<h2> Implemmentation </h2>
+    <h3> lyrebird.server </h3>
+    <ul>
+        <li>1. check the arguments for the program to take config and log files as input  </li>
+        <li>2. utilize socket(), bind(), listen() to setup the socket, which is in network. module  </li>
+        <li>3. server does not send the content in the config file,  but is able to connect to client, and log connection </li>
+    </ul>
+
+    <h3> testing </h3>
+    <p> I test the code as every few lines added, using print statements mainly, and to see if the output is expected. </p>
